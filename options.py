@@ -1,0 +1,20 @@
+import datetime
+
+WIDTH = 1280  # root.winfo_screenwidth()
+HEIGHT = 1024  # root.winfo_screenheight()
+
+IMAGE_OUTPUT = f'output.png'
+TEXT_OUTPUT = f'map.txt'
+DIFFICULT_MAZE_BASE = 'medium'
+AMOUNT_CELLS_IN_W_EASY = 20
+AMOUNT_CELLS_IN_H_EASY = 20
+AMOUNT_CELLS_IN_W_MEDIUM = 40
+AMOUNT_CELLS_IN_H_MEDIUM = 40
+AMOUNT_CELLS_IN_W_HARD = 60
+AMOUNT_CELLS_IN_H_HARD = 60
+
+COLOR_S = 2
+COLOR_WALL = 1
+COLOR_WAY = 0
+COLOR_FINISH = 3
+
